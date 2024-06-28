@@ -1,2 +1,28 @@
-
+*{
+	margin:0;
+	padding:0;
+}
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:centre;
+	align-items:centre;
+	background-color:black;
+	height:300px;
+	width:100%;
+
+}
+.item{
+	height:80px;
+	flex-shrink:2;
+}
+.item:nth-last-child(2){
+	background-color:rgb(255,0,0);
+}
+.item:first-child{
+	background-color:rgb(0,255,0);
+}
+.item:last-of-type{
+	background-color:rgb(0,0,255);
+}
