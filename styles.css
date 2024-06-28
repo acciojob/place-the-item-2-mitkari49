@@ -4,13 +4,13 @@
 }
 /* Your CSS Code here. */
 .holder{
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:centre;
-	align-items:centre;
-	background-color:black;
-	height:300px;
-	width:100%;
+	display: flex;
+  justify-content: center; /* Centers items horizontally */
+  flex-wrap: wrap; /* Allows items to wrap onto the next row */
+  align-items: center; /* Centers items vertically */
+  color: white;
+  height: 300px;
+  width: 100%;
 
 }
 .item{
